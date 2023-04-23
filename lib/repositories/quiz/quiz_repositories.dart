@@ -6,6 +6,8 @@ import 'package:quizzapp/enums/difficulty.dart';
 import 'package:quizzapp/model/question_model.dart';
 import 'package:quizzapp/repositories/quiz/base_quiz_repositories.dart';
 import '../../model/failure_model.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 
 
 final dioProvider = Provider((ref) => Dio());
